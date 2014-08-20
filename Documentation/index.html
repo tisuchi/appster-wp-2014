@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Appster Wordpress Theme Documentation">
+	<meta name="author" content="eriktailor">
+	<link rel="shortcut icon" href="assets/img/favicon.ico">
+	<title>Appster Wordpress Theme Documentation</title>
+	<link href="assets/css/et-style.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+<!-- ===============================================================================
+######### ET SIDEBAR
+=================================================================================-->
+<aside id="et-sidebar">
+	<div class="et-logo">
+		<img src="assets/img/et_logo.png" alt="eriktailor" />
+	</div>
+	<ul class="et-sidemenu" id="et-sidemenu">
+		<li class="closed"><span>1. Getting Started</span>
+			<ul>
+				<li><span><a href="#1.1" data-sidemenu="1.1">1.1 Included Files</a></span></li>
+				<li><span><a href="#1.2" data-sidemenu="1.2">1.2 Theme Installion</a></span></li>
+				<li><span><a href="#1.3" data-sidemenu="1.3">1.3 Plugin Activation</a></span></li>
+				<li><span><a href="#1.4" data-sidemenu="1.4">1.4 Import Demo Content</a></span></li>			
+			</ul>
+		</li>
+		<li class="closed"><span>2. The Home Page</span>
+			<ul>
+				<li><span><a href="#2.1" data-sidemenu="2.1">2.1 Introduction</a></span></li>
+				<li><span><a href="#2.2" data-sidemenu="2.2">2.2 Creating The Home Page</a></span></li>			
+				<li><span><a href="#2.3" data-sidemenu="2.3">2.3 Intro Section</a></span></li>			
+				<li><span><a href="#2.4" data-sidemenu="2.4">2.4 Features Section</a></span></li>
+				<li><span><a href="#2.5" data-sidemenu="2.5">2.5 Magnifier Section</a></span></li>			
+				<li><span><a href="#2.6" data-sidemenu="2.6">2.6 Showcase Section</a></span></li>			
+				<li><span><a href="#2.7" data-sidemenu="2.7">2.7 Screenshots Section</a></span></li>
+				<li><span><a href="#2.8" data-sidemenu="2.8">2.8 Testimonials Section</a></span></li>			
+				<li><span><a href="#2.9" data-sidemenu="2.9">2.9 Selector Section</a></span></li>			
+				<li><span><a href="#2.10" data-sidemenu="2.10">2.10 Team Section</a></span></li>					
+				<li><span><a href="#2.12" data-sidemenu="2.12">2.12 Pricing Section</a></span></li>
+				<li><span><a href="#2.13" data-sidemenu="2.13">2.13 Call To Action Section</a></span></li>			
+				<li><span><a href="#2.14" data-sidemenu="2.14">2.14 Custom Section</a></span></li>
+				<!-- <li><span><a href="#2.15" data-sidemenu="2.15">2.15 Twitter Feed Section</a></span></li> -->
+				<li><span><a href="#2.16" data-sidemenu="2.16">2.16 Clients Section</a></span></li>					
+				<li><span><a href="#2.17" data-sidemenu="2.17">2.17 Counters Section</a></span></li>				
+			</ul>
+		</li>
+		<li><span>3. The Nav Menu</span>
+			<ul>
+				<li><span><a href="#3.1" data-sidemenu="3.1">3.1 Introduction</a></span></li>
+				<li><span><a href="#3.2" data-sidemenu="3.2">3.2 Creating New Menu</a></span></li>
+				<li><span><a href="#3.3" data-sidemenu="3.3">3.3 Page Menu Items</a></span></li>
+				<li><span><a href="#3.4" data-sidemenu="3.4">3.4 Link Menu Items</a></span></li>
+				<li><span><a href="#3.5" data-sidemenu="3.5">3.5 Example</a></span></li>				
+			</ul>
+		</li>		
+		<li><span><a href="#4.0">4. Content Editing</a></span>
+			<ul>
+				<li><span><a href="#4.1" data-sidemenu="4.1">4.1 Creating Pages</a></span></li>
+				<li><span><a href="#4.2" data-sidemenu="4.2">4.2 The Shortcodes</a></span></li>				
+			</ul>		
+		</li>	
+		<li><span><a href="#5.0">5. Theme Options</a></span>
+			<ul>
+				<li><span><a href="#5.1" data-sidemenu="5.1">5.1 Introduction</a></span></li>
+				<li><span><a href="#5.2" data-sidemenu="5.2">5.2 General</a></span></li>
+				<li><span><a href="#5.3" data-sidemenu="5.3">5.3 Footer (contact)</a></span></li>					
+			</ul>		
+		</li>			
+		<li><span><a href="#6.0">6. Troubleshooting</a></span></li>			
+		<li><span><a href="#7.0">7. Credits &amp; Sources</a></span></li>	
+	</ul>
+	<!-- <p class="et-infos"> Appster Wp v1.0.0 </p> -->
+	<div class="et-rate"><p>Please don't forget to <span>rate this theme</span> on ThemeForest. We really do appreciate it!</p></div>
+	<p class="et-sidebar-copyright">Copyright © 2014 eriktailor </p>
+</aside>
+  
+ <!-- ===============================================================================
+######### CONTENT START
+=================================================================================-->
+<div class="et-site-wrapper">   
+	<div class="container"> 
+		<div class="jumbotron">
+			<h1>Appster</h1>
+			<p class="lead">This is the theme documentation file. Please search this before submitting a support request. Note that we do not support theme customizations beyond it's original functionality &amp; appearance.</p>
+		<div class="row">
+			<div class="col-md-6">
+				<p><a class="btn btn-lg btn-success main-btns" href="http://eriktailor.com/appster" role="button">Live Theme Preview</a></p>
+			</div>
+			<div class="col-md-6">
+				<p><a class="btn btn-lg btn-success main-btns" href="http://themeforest.net/item/appster-clean-minimal-app-landing-page-wordpress/7104515" role="button">View On ThemeForest</a></p>
+			</div>
+		</div>
+      </div>
+
+<!-- ===============================================================================
+######### GETTING STARTED
+=================================================================================-->	  
+	 <section id="getting-started" class="et-sections"> 
+	  
+		<div class="row et-heading">
+			<h1>1. Getting Started</h1>
+			<p>A bit about getting started with your WordPress project.</p>
+			<hr />
+		</div>
+		
+		<div class="row" data-sidemenu="1.1">
+			<h2 id="1.1" class="level-2"><span>1.1</span> Included Files</h2>
+			<p>After downloaded the theme package open Appster Package folder and unzip it if you haven't already. Inside the package you will find the following files: </p>
+			<ul class="et-included-files">
+				<li><span class="glyphicon glyphicon-folder-open"></span> Documentation</li>
+				<li><span class="glyphicon glyphicon-folder-open"></span>Extras</li>
+					<ul>
+					<li><span class="glyphicon glyphicon-folder-open"></span>import</li>
+					<li><span class="glyphicon glyphicon-folder-close"></span>layouts</li>
+					</ul>				
+				<li><span class="glyphicon glyphicon-folder-open"></span>Psd</li>
+				<li><span class="glyphicon glyphicon-folder-open"></span>Theme</li>
+					<ul>
+					<li><span class="glyphicon glyphicon-folder-open"></span>Appster</li>
+					<li><span class="glyphicon glyphicon-folder-close"></span>appster-theme.zip</li>
+					</ul>
+			</ul>
+		</div>
+		
+		<div class="row" data-sidemenu="1.2">
+			<h2 id="1.2" class="level-2"><span>1.2</span> Theme Installion</h2>
+			<p>To install your purchased WordPress theme what you’ve already downloaded and unzipped you have two ways: WordPress Upload or FTP Upload. Learn a bit about each below in Sections 1.2.1 and 1.2.2</p>
+		</div>
+
+		<div class="row" data-sidemenu="1.2">
+			<h2 id="1.2.1" class="level-2"><span>1.2.1</span> Wordpress Upload</h2>
+			<p>Log in to your brand new installed wp and navigate to 
+			<span class="et-wpnav-buttons">
+				<span class="et-label label-default">Dashboard</span>
+				<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>			
+				<span class="et-label label-default">Appearance</span>
+				<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+				<span class="et-label label-default">Themes</span>
+				<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+				<span class="et-label label-default">Add New</span>
+			</span>
+			and choose the Upload tab at the top.</p>
+			<p>	When your theme is successfully installed, click
+			<span class="et-label label-primary">Activate</span> to activate the newly uploaded theme.
+			</p>			
+			<p class="et-notice alert-info">When uploading theme with this method, please make sure that you're uploading the <strong>appster-theme.zip</strong> file, not entire package you downloaded. If you upload the wrong file you will get an error stating “Error: missing style.css stylesheet.”</p>
+		</div>	
+
+		<div class="row" data-sidemenu="1.2">
+			<h2 id="1.2.2" class="level-2"><span>1.2.2</span> FTP Upload</h2>
+			<p>To upload your new WordPress theme with the manual method, login to your website and unzip the <strong>appster-theme.zip</strong> file and upload it's contents to "wordpress/wp-content/themes" folder.</p>
+			<p>Once uploaded, navigate to 
+			<span class="et-wpnav-buttons">
+				<span class="et-label label-default">Dashboard</span>
+				<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>			
+				<span class="et-label label-default">Appearance</span>
+				<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+				<span class="et-label label-default">Themes</span>
+			</span>			
+			in the WordPress Dashboard and hit <span class="et-label label-primary">Activate</span> below your newly uploaded theme. </p>
+		</div>
+
+		<div class="row" data-sidemenu="1.3">
+			<h2 id="1.3" class="level-2"><span>1.3</span> Plugin Activation</h2>
+			<p>At the top of every page in the Dashboard, you will see a WordPress notice to activate the new theme's required plugins. Let's activate them by clicking on <span class="et-label label-primary">Begin Install</span>, and when the plugin(s) are successfully installed, select "Return to required plugins installer" and activate them.</p>
+			<p class="et-notice alert-info">If you did everything correctly the notice at the top of every page is disappeared.</p>			
+		</div>
+
+		<div class="row" data-sidemenu="1.4">
+			<h2 id="1.4" class="level-2"><span>1.4</span> Import Demo Content</h2>
+			<p>If you need your theme to be exactly the same like in the theme demo, you will need to import the demo content and options, it can be good starting when heading to customize your site.</p>
+			<p class="et-notice alert-info">For WordPress newbies it's highly recommended to import the demo content, it makes the customization process easier.</p>	
+			<p>In the following sections 1.4.1 - 1.4.5 you can learn more about importing the demo content if you choose to start your site with a completely working example, the same in the theme demo.</p>
+		</div>
+
+		<div class="row" data-sidemenu="1.4">
+			<h2 id="1.4.1" class="level-2"><span>1.4.1</span>  Importing Contents</h2>
+			<p>For first you will have to import the demo xml file what contains the backup of pages, posts and contents of the theme demo. To do that head to
+				<span class="et-wpnav-buttons">
+					<span class="et-label label-default">Dashboard</span>
+					<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>				
+					<span class="et-label label-default">Tools</span>
+					<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+					<span class="et-label label-default">Import</span>
+				</span>	
+			and click on the <strong>Wordpress Importer</strong> and install it at the upcoming page.</p>
+			<p>Once it's ready, browse the <strong>appster-demo-content.xml</strong> file from the "Extras/Import" folder (in the downloaded theme package) and hit <span class="et-label label-primary">Upload file and Import</span>. You will be redirected to a page where the authors of the imported contents are listed, never mind, just make sure to check "Download and import file attachments" and hit <span class="et-label label-primary">Submit</span> to start the process.
+			</p>
+			<p></p>
+		</div>
+
+		<div class="row" data-sidemenu="1.4">
+			<h2 id="1.4.2" class="level-2"><span>1.4.2</span>  Importing Theme Options</h2>
+			<p>To import the same theme options used in the live preview open the <strong>appster-theme-options.txt</strong> in a notepad and select all of the weird looking characters then copy them and paste in
+				<span class="et-wpnav-buttons">
+					<span class="et-label label-default">Dashboard</span>
+					<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+				
+					<span class="et-label label-default">Appearance</span>
+					<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+					<span class="et-label label-default">Options Backup</span>
+				</span>	
+			to the "Import Theme Options" field.</p> 
+			
+			<p>After simply hit the <span class="et-label label-primary">Import Theme Options</span> button and you're done.
+			</p>
+		</div>
+
+		<div class="row" data-sidemenu="1.4">
+			<h2 id="1.4.3" class="level-2"><span>1.4.3</span> Set Front Page Displays</h2>
+				<p>Go to
+					<span class="et-wpnav-buttons">
+						<span class="et-label label-default">Dashboard</span>
+						<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>				
+						<span class="et-label label-default">Settings</span>
+						<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+						<span class="et-label label-default">Reading</span>
+					</span>	
+				and change the "Front Page Displays" to <strong>Static Page</strong> and select "Home" for your front page and "Blog" for your posts page and finally hit <span class="et-label label-primary">Save Changes</span>.</p> 
+		</div>
+		
+		<div class="row" data-sidemenu="1.4">
+			<h2 id="1.4.4" class="level-2"><span>1.4.4</span> Set Permalink Structure</h2>	
+				<p>Navigate to 				
+					<span class="et-wpnav-buttons">
+						<span class="et-label label-default">Dashboard</span>
+						<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>				
+						<span class="et-label label-default">Settings</span>
+						<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+						<span class="et-label label-default">Permalinks</span>
+					</span>	 
+				and choose <strong>Post Name</strong> from the list and hit <span class="et-label label-primary">Save Changes</span>
+				</p>			
+		</div>
+		
+		<div class="row" data-sidemenu="1.4">
+			<h2 id="1.4.5" class="level-2"><span>1.4.5</span> Set Primary Menu</h2>			
+				<p>Head to 
+					<span class="et-wpnav-buttons">
+						<span class="et-label label-default">Dashboard</span>
+						<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>				
+						<span class="et-label label-default">Appearance</span>
+						<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+						<span class="et-label label-default">Menus</span>
+					</span>	
+				and select <strong>Appster Menu</strong> from the dropdown menu selector at the top. Check the "Top Primary Menu" checkbox at the bottom and click <span class="et-label label-primary">Save Menu</span>
+				</p>
+			<p class="et-notice alert-info">If the steps above were done in the right way, your site should look the same like in the theme demo.</p>					
+		</div>			
+
+	</section><!-- / gettig started -->
+
+<!-- ===============================================================================
+######### THE HOME PAGE
+=================================================================================-->	  
+	 <section id="the-home-page" class="et-sections"> 
+	  
+		<div class="row et-heading">
+			<h1>2. The Home Page</h1>
+			<p>Setting up and customization of the static one-page home page</p>
+			<hr />
+		</div>	
+
+		<div class="row" data-sidemenu="2.1">
+			<h2 id="2.1" class="level-2"><span>2.1</span> Introduction</h2>
+			<p>The home page contains a dozen of different sections to cover every purpose of usuage of an app landing page. Every section has it's own tab with many options in the Theme Options panel, you can see through them at
+				<span class="et-wpnav-buttons">
+					<span class="et-label label-default">Dashboard</span>
+					<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>				
+					<span class="et-label label-default">Appearance</span>
+					<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+					<span class="et-label label-default">Theme Options</span> 
+				</span>	
+			</p>
+			<br />
+			<p>You will notice that most of the elements has an option of selecting it's animation. You can check the <a href="http://daneden.github.io/animate.css/" target="_blank">available animations</a> in case you are not familiar with them.</p>
+		</div>	
+		
+		<div class="row" data-sidemenu="2.2">
+			<h2 id="2.2" class="level-2"><span>2.2</span> Creating The Home Page</h2>
+			<p>To set up the home page add a new page by go to
+				<span class="et-wpnav-buttons">
+					<span class="et-label label-default">Dashboard</span>
+					<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>				
+					<span class="et-label label-default">Pages</span>
+					<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+					<span class="et-label label-default">Add New</span>
+				</span>	
+			and after adding your wished page title (e.g: "Home") set the <strong>Page Template</strong> on the right to "Home", and hit <span class="et-label label-primary">Publish</span></p> 
+			<p class="et-notice alert-info">If you checked your site and don't see the empty home page please look back to Section 1.4.3 and set your Home Page as the site's default front page.</p>	
+			<p>To add a predefined section to your home page (e.g. Team Section), first create a New Section at 				
+				<span class="et-wpnav-buttons">
+					<span class="et-label label-default">Dashboard</span>
+					<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>				
+					<span class="et-label label-default">Appearance</span>
+					<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+					<span class="et-label label-default">Theme Options</span> 
+					<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+					<span class="et-label label-default">General</span>
+					<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+					<span class="et-label label-default">Home Sections</span>
+					<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+					<span class="et-label label-default">Add New</span>					
+				</span>
+			and choose a section type from the dropdown menu and hit <span class="et-label label-primary">Save Changes</span>.
+			</p>
+		</div>
+
+		<div class="row" data-sidemenu="2.3">
+			<h2 id="2.3" class="level-2"><span>2.3</span> Intro Section</h2>
+			<p>In the Intro section you're able to upload your custom background, rewrite the contents, add your own buttons, select animations either to the titles and the model images. See the settings below:</p>
+			<img src="assets/img/intro_section.jpg" class="et-image" />
+			<ol class="et-sections-overview">
+				<li><h3>A. Intro Section:</h3> option for enable/disable section, unique section id to refer in the site menu</li>
+				<li><h3>B. Intro Background:</h3> you can upload your custom background image (2000x615px optional)</li>
+				<li><h3>C. Intro Headings:</h3> add your titles and select animation for them.</li>	
+				<li><h3>D. Intro Descriptions:</h3> the description content, html tags and shortcodes are allowed</li>
+				<li><h3>E. Intro Images:</h3> There is place for 2 images half covering each other (like in the theme demo), you can upload two model images or just one if you need so and select animation for each model image. </li>					
+			</ol>
+		</div>
+
+		<div class="row" data-sidemenu="2.4">
+			<h2 id="2.4" class="level-2"><span>2.4</span> Features Section</h2>
+			<p>In the Features section you can add icon boxes to showcase your features. See the settings below:</p>
+			<img src="assets/img/features_section.jpg" class="et-image" />
+			<ol class="et-sections-overview">
+				<li><h3>A. Features Section:</h3> option for enable/disable section, unique section id to refer in the site menu</li>
+				<li><h3>B. Section Title:</h3> add the section title both the emphasized word and the rest</li>
+				<li><h3>C. Section Contrast:</h3> set the background, light means plain white / dark means the one with the pattern</li>	
+				<li><h3>D. Icon Boxes:</h3> add as many icon boxes as you need then edit or reorder them if needed.</li>
+				<li><h3>E. Icon Boxes Animation:</h3> select animation for all of the icon boxes</li>					
+			</ol>
+		</div>
+
+		<div class="row" data-sidemenu="2.5">
+			<h2 id="2.5" class="level-2"><span>2.5</span> Magnifier Section</h2>
+			<p>In the Magnifier section you can add your image to the tablet frame and allow the user to inspect with the interactive magnifying glass crafted over the tablet. See the settings below:</p>
+			<img src="assets/img/magnifier_section.jpg" class="et-image" />
+			<ol class="et-sections-overview">
+				<li><h3>A. Magnifier Section:</h3> option for enable/disable section, unique section id to refer in the site menu</li>
+				<li><h3>B. Section Contrast:</h3> white/pattern background for the narrow stripe over the top of the tablet</li>	
+				<li><h3>C. Magnifier Background:</h3> you can upload your custom background image (2000x900px optional)</li>
+				<li><h3>D. Tablet Zoomer:</h3> upload model image for the zoomer (1024x482px optional) and select animation</li>					
+			</ol>
+		</div>	
+
+		<div class="row" data-sidemenu="2.6">
+			<h2 id="2.6" class="level-2"><span>2.6</span> Showcase Section</h2>
+			<p>In the Showcase section you can add text based features and huge sleek model images with custom animation and you can also set the alignment of the showcase. See the settings below:</p>
+			<img src="assets/img/showcase_section.jpg" class="et-image" />
+			<ol class="et-sections-overview">
+				<li><h3>A. Showcase Section:</h3> option for enable/disable section, unique section id to refer in the site menu</li>
+				<li><h3>B. Showcases:</h3> add as many showcases as you need, add headings, set contrast of the background (light / dark), choose alignment (image on right / image on left), add text based description and finally upload your model image (382x416px optional)</li>	
+				<li><h3>C. Showcase Images Animation:</h3> select your desired css3 animation for the showcase model images</li>					
+			</ol>
+		</div>			
+		
+		<div class="row" data-sidemenu="2.7">
+			<h2 id="2.7" class="level-2"><span>2.7</span> Screenshots Section</h2>
+			<p>In the Screenshots section you can add any kind of images what will be wrapped in a thumbnail and open large in a cool lightbox when clicked on. See the settings below:</p>
+			<img src="assets/img/screenshots_section.jpg" class="et-image" />
+			<ol class="et-sections-overview">
+				<li><h3>A. Screenshots Section:</h3> option for enable/disable section, unique section id to refer in the site menu</li>
+				<li><h3>B. Section Title:</h3> add the section title both the emphasized word and the rest</li>
+				<li><h3>C. Section Contrast:</h3> set the background, light means plain white / dark means the one with the pattern</li>					
+				<li><h3>D. Screenshots Animation:</h3> select the css3 animation for the image thumbnails</li>
+				<li><h3>E. Screenshots:</h3> add as many as needed, then edit / delete or rearrange with drag &amp; drop</li>					
+			</ol>
+		</div>
+
+		<div class="row" data-sidemenu="2.8">
+			<h2 id="2.8" class="level-2"><span>2.8</span> Testimonials Section</h2>
+			<p>In the Testimonials section you can add quotes and change parallax background. See the settings below:</p>
+			<img src="assets/img/screenshots_section.jpg" class="et-image" />
+			<ol class="et-sections-overview">
+				<li><h3>A. Screenshots Section:</h3> option for enable/disable section, unique section id to refer in the site menu</li>
+				<li><h3>B. Testimonials Background:</h3> upload your custom background image for testimonials section</li>
+				<li><h3>C. Testimonials Animation:</h3> choose css3 animation for the quotes</li>					
+			</ol>
+		</div>
+
+		<div class="row" data-sidemenu="2.9">
+			<h2 id="2.9" class="level-2"><span>2.9</span> Selector Section</h2>
+			<p>In the Selector section you can  create a slideshow inside the phone frame with cool images and iconic arrow buttons as the slideshow control. See the settings below:</p>
+			<img src="assets/img/selector_section.jpg" class="et-image" />
+			<ol class="et-sections-overview">
+				<li><h3>A. Selector Section:</h3> option for enable/disable section, unique section id to refer in the site menu</li>
+				<li><h3>B. Section Title:</h3> add the section title both the emphasized word and the rest</li>
+				<li><h3>C. Section Contrast:</h3> set the background, light means plain white / dark means the one with the pattern</li>					
+				<li><h3>D. Feature Selectors:</h3> upload image for slide and set icon and title. Adding at most four is optimal</li>					
+			</ol>
+		</div>
+
+		<div class="row" data-sidemenu="2.10">
+			<h2 id="2.10" class="level-2"><span>2.10</span> Team Section</h2>
+			<p>In the Team section you can add team members with optional 2-3-4 column layout, member description and social network links. See the settings below:</p>
+			<img src="assets/img/team_section.jpg" class="et-image" />
+			<ol class="et-sections-overview">
+				<li><h3>A. Team Section:</h3> option for enable/disable section, unique section id to refer in the site menu</li>
+				<li><h3>B. Section Title:</h3> add the section title both the emphasized word and the rest</li>
+				<li><h3>C. Section Contrast:</h3> set the background, light means plain white / dark means the one with the pattern</li>					
+				<li><h3>D. Layout:</h3> choose from 2-3-4 columned layout for the team members</li>					<li><h3>E. Team Members:</h3> add as many of them as needed, insert a short brief and add social links</li>					
+			</ol>
+		</div>	
+		
+		<!--
+		
+		#### TWIITTER SECTION
+		
+		-->
+
+		<div class="row" data-sidemenu="2.12">
+			<h2 id="2.12" class="level-2"><span>2.12</span> Pricing Section</h2>
+			<p>In the Pricing section you can create pricing tables with 2-3-4 columned layout, features with optional icons near each one, and call to action buttons. You can also add buttons See the settings below:</p>
+			<img src="assets/img/pricing_section.jpg" class="et-image" />
+			<ol class="et-sections-overview">
+				<li><h3>A. Pricing Section:</h3> option for enable/disable section, unique section id to refer in the site menu</li>
+				<li><h3>B. Section Title:</h3> add the section title both the emphasized word and the rest</li>
+				<li><h3>C. Section Contrast:</h3> set the background, light means plain white / dark means the one with the pattern</li>					
+				<li><h3>D. Pricing Tables:</h3> create pricing tables and reorder them with drag &amp; drop features</li>					
+			</ol>
+		</div>		
+		
+		<div class="row" data-sidemenu="2.13">
+			<h2 id="2.13" class="level-2"><span>2.13</span> Call To Action Section</h2>
+			<p>In the Call To Action section you can upload your background image, set button and animation and add any content you wish in a textarea what allows html tags and shortcodes both. See the settings below:</p>
+			<img src="assets/img/calltoaction_section.jpg" class="et-image" />
+			<ol class="et-sections-overview">
+				<li><h3>A. Call To Action Section:</h3> option for enable/disable section, unique section id to refer in the site menu</li>
+				<li><h3>B. Call To Action Background:</h3> create pricing tables and reorder them with drag &amp; drop features</li>
+				<li><h3>C. Call To Action Content:</h3> add any content you wish including html tags and shortcodes</li>
+				<li><h3>D. Call To Action Button:</h3> set the text, link and animation of the large call to action button</li>					
+			</ol>
+		</div>
+
+		<div class="row" data-sidemenu="2.14">
+			<h2 id="2.14" class="level-2"><span>2.14</span> Custom Section</h2>
+			<p>In the Custom section you can add anything you can think of, it is basically an "empty" section where you can paste whatever you wish in a textarea what accepts html and shortcodes both.</p>
+			<img src="assets/img/custom_section.jpg" class="et-image" />
+			<ol class="et-sections-overview">
+				<li><h3>A. Custom Section:</h3> option for enable/disable section, unique section id to refer in the site menu</li>
+				<li><h3>B. Section Title:</h3> add the section title both the emphasized word and the rest</li>
+				<li><h3>C. Section Contrast:</h3> set the background, light means plain white / dark means the one with the pattern</li>
+				<li><h3>C. Custom Content:</h3> add any content you wish including html tags and shortcodes</li>					
+			</ol>
+		</div>		
+		
+</section><!-- / the home page  -->	
+
+<!-- ===============================================================================
+######### THE NAV MENU
+=================================================================================-->
+<section id="the-menu" class="et-sections"> 
+
+		<div class="row et-heading">
+			<h1>3. The Nav Menu</h1>
+			<p>Short guide about setting up the navigation menu.</p>
+			<hr />
+		</div>	
+
+		<div class="row">
+			<h2 id="3.1" class="level-2"><span>3.1</span> Introduction</h2>
+			<p>The idea behind Appster theme's navigation menus are basically having two types of menu items:</p>
+			<ol>
+			<li>Use <strong>Page</strong> based items for separate pages like Blog or any other pages what's not on the Home Page.</li>
+			<li>Create <strong>Link</strong> based items for sections what are located on the Home Page and just scrolling is needed.</li>
+			</ol>
+			<p class="et-notice alert-info">You can read more on how to use the two types in Section 3.3 and Section 3.4</p>			
+		</div>		
+		
+		<div class="row">
+			<h2 id="3.2" class="level-2"><span>3.2</span> Creating New Menu</h2>
+			<p>To set up the navigation menu from scratch, head to  
+				<span class="et-wpnav-buttons">
+					<span class="et-label label-default">Appearance</span>
+					<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>				
+					<span class="et-label label-default">Menus</span>
+				</span>	
+			and select <span class="et-label label-primary">Create New Menu</span> at the top of the page to create a new menu. Name it whatever you want, but make sure that the checkbox near<br /> <strong>Top Primary Menu</strong> is checked and finally hit <span class="et-label label-primary">Save Menu</span></p>
+			<img src="assets/img/creating_new_menu.jpg" class="et-image" />
+		</div>
+		
+		<div class="row">
+			<h2 id="3.3" class="level-2"><span>3.3</span> Page Menu Items</h2>
+			<p>Use <strong>Page</strong> items on the left when you are creating menu links for separate pages, just select the needed pages from the list and click <span class="et-label label-primary">Add To Menu</span></p>
+			<img src="assets/img/adding_page_menu_items.jpg" class="et-image" />
+		</div>
+		
+		<div class="row">
+			<h2 id="3.4" class="level-2"><span>3.4</span> Link Menu Items</h2>
+			<p>Use <strong>Link</strong> type on the left when you are creating scrolling links for the Home Page sections by adding your site url and the <strong>Unique section ID</strong> with a <strong>#</strong> sign before, name it as you wish and finally hit <span class="et-label label-primary">Add To Menu</span></p>						
+			<img src="assets/img/adding_link_menu_items.jpg" class="et-image" />	
+		</div>
+
+		<div class="row">
+			<h2 id="3.5" class="level-2"><span>3.5</span> Example</h2>
+			<p>For example if you want to add a "Pricing" menu item in the navigation what scrolls down to the pricing section when clicked, do the following: </p>			
+			<br />
+			<ol>
+			<li>Check the pricing section's <strong>Unique Section ID</strong> at
+				<span class="et-wpnav-buttons">
+					<span class="et-label label-default">Appearance</span>
+					<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>				
+					<span class="et-label label-default">Theme Options</span>
+					<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>				
+					<span class="et-label label-default">Pricing</span>					
+				</span>	
+				<img src="assets/img/link_menu_items_example_01.jpg" class="et-image" />
+				<br /><br />
+			</li>
+			<li>Go back to the menus and add your basic home url to the URL field
+				<img src="assets/img/link_menu_items_example_02.jpg" class="et-image" />
+				<br /><br />
+			</li>
+			<li>Add a <strong>#</strong> character and the pricing section's <strong>Unique section ID</strong> right after it
+				<img src="assets/img/link_menu_items_example_03.jpg" class="et-image" />
+				<br /><br />
+			</li>
+			<li>Name the menu item and hit <span class="et-label label-primary">Add To Menu</span> and finally save the menu.</li>
+			</ol>			
+		</div>	
+
+</section><!-- / the menu-->
+
+<!-- ===============================================================================
+######### CONTENT EDITING
+=================================================================================-->		
+		
+<section id="content-editing" class="et-sections"> 
+
+		<div class="row et-heading">
+			<h1 id="4.0">4. Content Editing</h1>
+			<p>Adding pages and shortcodes supported by the theme</p>
+			<hr />
+		</div>	
+
+		<div class="row" data-sidemenu="4.1">
+			<h2 id="4.1"class="level-2"><span>4.1</span> Creating Pages</h2>
+			<p>To create separate custom pages from the home page and it's sections, navigate to
+				<span class="et-wpnav-buttons">			
+					<span class="et-label label-default">Pages</span>
+					<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+					<span class="et-label label-default">Add New</span> 			
+				</span>	
+				and set the page template at the right to <strong>Default</strong> and hit <span class="et-label label-primary">Publish</span>
+			</p>
+		</div>
+		
+		<div class="row" data-sidemenu="4.2">
+			<h2 id="4.2"class="level-2"><span>4.2</span> The Shortcodes</h2>
+			<p>You can use custom shortcodes included with the theme in separate custom pages or every advanced textarea in the Theme Options. At the following sections you can see what shortcodes are supported with this theme.</p>
+		</div>
+		
+		<div class="row" data-sidemenu="4.2">
+			<h2 id="4.2.1"class="level-2"><span>4.2.1</span> Columns Shortcode</h2>
+			<p>Appster has 16 columns at full width by default. You can easily add responsive columns to your content, just take a look at the code sample of the usuage.</p>
+			<pre>[column width="1/2"]This is the first half column[/column]<br />[column width="1/2"]This is the second half column[/column]</pre>
+			<h5>Width Options</h5>
+			<ol class="et-sections-overview">
+				<li><strong>1</strong> = full column</li>
+				<li><strong>1/2</strong> = half column</li>
+				<li><strong>1/3</strong> = one-third column</li>
+				<li><strong>2/3</strong> = two-third column</li>
+				<li><strong>1/4</strong> = one-fourth column</li>
+				<li><strong>3/4</strong> = three-fourth column</li>
+			</ol>
+		</div>
+		
+		<div class="row" data-sidemenu="4.2">
+			<h2 id="4.2.2"class="level-2"><span>4.2.2</span> Divider Shortcode</h2>
+			<p>Divider shortcode is a 1px full width solid grey divider, it can be used for separating different content sections</p>
+			<pre>[divider]</pre>
+		</div>
+		
+		<div class="row" data-sidemenu="4.2">
+			<h2 id="4.2.3"class="level-2"><span>4.2.3</span> Titles Shortcode</h2>
+			<p>You can define titles for your content from a variety of h1-h6 tags. You can see the theme demo's Shortcodes section for reference of the headlines layout.</p>
+			<pre>[title type="h2"]This is a h2 headline[/title]</pre>
+			<h5>Type Options</h5>
+			<ol class="et-sections-overview">
+				<li><strong>h1</strong> = h1 heading</li>
+				<li><strong>h2</strong> = h2 heading</li>
+				<li><strong>h3</strong> = h3 heading</li>
+				<li><strong>h4</strong> = h4 heading</li>
+				<li><strong>h5</strong> = h5 heading</li>
+				<li><strong>h6</strong> = h6 heading</li>
+			</ol>			
+		</div>
+
+		<div class="row" data-sidemenu="4.2">
+			<h2 id="4.2.4"class="level-2"><span>4.2.4</span> Button Shortcode</h2>
+			<p>You can easily add buttons with this shortcode, just set the size, color, and URL for the button.</p>
+			<pre>[button size="large" color="color" url="http://www.link.com"]Click Me[/button]</pre>
+			<h5>Size Options</h5>
+			<ol class="et-sections-overview">
+				<li><strong>small</strong> = small size</li>
+				<li><strong>medium</strong> = the default size</li>
+				<li><strong>large</strong> = enlarged size</li>
+			</ol>
+			<h5>Color Options</h5>
+			<ol class="et-sections-overview">
+				<li><strong>color</strong> = colored button, inherits the main color scheme of the theme</li>
+				<li><strong>light</strong> = light grey color</li>
+				<li><strong>dark</strong> = dark grey color</li>
+			</ol>
+			<h5>URL Options</h5>
+			<ol class="et-sections-overview">
+				<li><strong>url</strong> = full url where the button points</li>
+			</ol>			
+		</div>			
+		
+</section><!-- / shortcodes-->
+
+<!-- ===============================================================================
+######### THEME OPTIONS
+=================================================================================-->		
+		
+<section id="theme-options" class="et-sections"> 
+
+		<div class="row et-heading">
+			<h1 id="5.0">5. Theme Options</h1>
+			<p>General customizing options of the theme</p>
+			<hr />
+		</div>	
+
+		<div class="row" data-sidemenu="5.1">
+			<h2 id="5.1"class="level-2"><span>5.1</span> Introduction</h2>
+			<p>You can find all of the theme options under 
+				<span class="et-wpnav-buttons">			
+					<span class="et-label label-default">Appearance</span>
+					<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+					<span class="et-label label-default">Theme Options</span> 			
+				</span>	
+			</p>
+			<p>You can customize here every home page section and also set the global options of the theme. In the following sections you can learn more about the General and the Footer (and contact) options, the rest of the theme options tabs are the options of the home sections.</p>
+			<p class="et-notice alert-info">You can read more on options of the home sections at Section 2.3 - 2.17</p>					
+		</div>
+		
+		<div class="row" data-sidemenu="5.2">
+			<h2 id="5.2"class="level-2"><span>5.2</span> General</h2>
+			<p>In this tab you can set the basic global options of the theme, these options are:</p>
+			<ol class="et-sections-overview">
+				<li><h3>A. Site Logo:</h3> you can upload a logo for the site, it will appear at the left of the nav menu</li>
+				<li><h3>B. Login Logo:</h3> you can upload a custom logo for the wordpress login screen</li>
+				<li><h3>C. Site Favicon:</h3> upload a favicon for the site, you can generate yours <a href="http://tools.dynamicdrive.com/favicon/">here</a></li>					
+				<li><h3>D. Color Scheme:</h3> pick the main color scheme for the theme</li>		
+				<li><h3>E. Back Top Button:</h3> show / hide back to top button in the right bottom corner</li>	
+				<li><h3>F. Navigation Layout:</h3> show / hide the color bar behind the logo in the nav menu</li>	
+				<li><h3>G. Home Sections:</h3> add which sections to display on your home page and reorder them if needed</li>					
+			</ol>			
+		</div>
+
+		<div class="row" data-sidemenu="5.3">
+			<h2 id="5.3"class="level-2"><span>5.3</span> Footer (contact)</h2>
+			<p>In the footer tab you can set all of the options of the footer in the theme, set the contact form or the mailchimp subscribe form, add social links and more cool stuff.</p>
+			<ol class="et-sections-overview">
+				<li><h3>A. Copyright Text:</h3> you can add your copyright text and the unique section ID for the footer / contact</li>
+				<li><h3>B. Contact Bar:</h3> show / hide the contact bar (where contact form or mailchimp subscribe form is located)</li>
+				<li><h3>C. Contact Type:</h3> select method to use for the contact bar (mailchimp subscribe or basic contact form)</li>					
+				<li><h3>D. Mailchimp:</h3> fill these fields if you've chosen mailchimp as the contact method. Read more in Section 5.3.1</li>		
+				<li><h3>E. Contact Form:</h3> fill these fields if you've chosen mailchimp as the contact method. Read more in Section 5.3.2</li>	
+				<li><h3>F. Contact Animation:</h3> select css3 animation for contact form (works with contact form method selected)</li>	
+				<li><h3>G. Social Networks Bar:</h3> show / hide social networks bar with social network icon links</li>			
+				<li><h3>H. Social Networks:</h3> add as many social network icon-links as you need and reorder them if needed</li>					
+			</ol>			
+		</div>
+		
+		<div class="row" data-sidemenu="5.3">
+			<h2 id="5.3.1"class="level-2"><span>5.3.1</span> Set Up Mailchimp Subscribe</h2>
+			<p>To set up the mailchimp subscribe form, follow the steps below:</p>
+			<img src="assets/img/mailchimp_subscribe.jpg" class="et-image" />
+		</div>
+		
+		
+		<div class="row" data-sidemenu="5.3">
+			<h2 id="5.3.2"class="level-2"><span>5.3.2</span> Set Up Contact Form</h2>
+			<p>This theme uses <a href="https://wordpress.org/plugins/contact-form-7/">Contact Form 7</a> plugin for the basic contact form. 
+			To create your own follow the steps below:</p>	
+			<ol>
+				<li>Make sure Contact Form 7 plugin is installed and activated successfully</li>
+				<li>Head to 
+					<span class="et-wpnav-buttons">			
+						<span class="et-label label-default">Dashboard</span>
+						<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+						<span class="et-label label-default">Contact</span>
+						<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+						<span class="et-label label-default">Add New</span> 						
+					</span>					
+				</li>
+				<li>Select a language for the contact form and name it as you wish</li>
+				<li>Browse the <strong>contact-form-sample.txt</strong> from the "Extras/Layouts" folder in the downloaded package and copy paste the content to the contents of the newly created form in the wordpress admin.</li>
+				<li>Set your email address at the <strong>To:</strong> field below the form settings and hit <span class="et-label label-primary">Save</span></li>
+				<li>Copy the shortcode of the created contact form and paste it the the "Contact Form 7 Shortcode" field at
+					<span class="et-wpnav-buttons">			
+						<span class="et-label label-default">Dashboard</span>
+						<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+						<span class="et-label label-default">Appearance</span>
+						<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+						<span class="et-label label-default">Theme Options</span> 
+						<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+						<span class="et-label label-default">Footer</span> 	
+						<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+						<span class="et-label label-default">Contact Form</span> 							
+					</span>	
+					
+				</li>
+			</ol>
+		</div>
+		
+</section><!-- / shortcodes-->
+
+<!-- ===============================================================================
+######### TROUBLESHOOTING
+=================================================================================-->		
+		
+<section id="troubleshooting" class="et-sections"> 
+
+		<div class="row et-heading">
+			<h1 id="6.0">6. Troubleshooting</h1>
+			<p>Solutions for common issues and frequently asked questions</p>
+			<hr />
+		</div>	
+
+		<div class="row" style="border-bottom: 0;">
+			<h2 class="level-2">My home sections don't display</h2>
+			<ol>
+			<li>Make sure your "Front Page Display" is set to a "Static Page" at 
+				<span class="et-wpnav-buttons">
+					<span class="et-label label-default">Settings</span>
+					<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>				
+					<span class="et-label label-default">Reading</span>				
+				</span>			
+			</li>
+			<li>Add a section to your home page at
+				<span class="et-wpnav-buttons">			
+					<span class="et-label label-default">Appearance</span>
+					<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+					<span class="et-label label-default">Theme Options</span> 
+					<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+					<span class="et-label label-default">General</span>
+					<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+					<span class="et-label label-default">Home Sections</span>				
+				</span>			
+			</li>
+			<li>Make sure your section's display is set to "On" at
+				<span class="et-wpnav-buttons">			
+					<span class="et-label label-default">Appearance</span>
+					<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+					<span class="et-label label-default">Theme Options</span>
+					<span class="glyphicon glyphicon-chevron-right et-arrowright"></span>
+					<span class="et-label label-default">Team Section</span>					
+				</span>	
+			   for example if you added "Team Section" in step 2.
+			</li>			
+			</ol>			
+		</div>	
+
+		<div class="row">
+			<p class="et-notice alert-info">More frequently asked questions and troubleshooting infos are coming soon.</p>
+		</div>			
+		
+
+</section><!-- / troubleshooting-->
+
+<!-- ===============================================================================
+######### CREDITS & SOURCES
+=================================================================================-->		
+		
+<section id="credits-sources" class="et-sections"> 
+
+		<div class="row et-heading">
+			<h1 id="7.0">7. Credits &amp; Sources</h1>
+			<p>Credits and sources for used assets in the theme</p>
+			<hr />
+		</div>	
+
+		<div class="row" style="border-bottom: 0;">
+			<h2 class="level-2">Javascript</h2>
+			<ul>
+			<li><a href="http://jquery.com/">jQuery</a></li>
+			<li><a href="https://github.com/mhuggins/jquery-countTo">jQuery CountTo</a></li>
+			<li><a href="http://gsgd.co.uk/sandbox/jquery/easing/">jQuery Easing</a></li>			
+			<li><a href="http://jdbartlett.com/loupe/">jQuery Loupe</a></li>
+			<li><a href="https://github.com/inuyaksa/jquery.nicescroll">jQuery NiceScroll</a></li>
+			<li><a href="http://www.ianlunn.co.uk/plugins/jquery-parallax/">jQuery Parallax</a></li>
+			<li><a href="https://github.com/mathiasbynens/jquery-placeholder">jQuery PlaceHolder</a></li>
+			<li><a href="http://plugins.jquery.com/smooth-scroll/">jQuery SmoothScroll</a></li>
+			<li><a href="http://imakewebthings.com/jquery-waypoints/">jQuery Waypoints</a></li>
+			</ul>
+			<h2 class="level-2">Fonts</h2>
+			<ul>
+			<li><a href="http://www.google.com/fonts/">Google Webfonts</a></li>
+			<li><a href="http://fortawesome.github.io/Font-Awesome/">FontAwesome</a></li>
+			</ul>
+			<h2 class="level-2">Css</h2>
+			<ul>
+			<li><a href="http://daneden.github.io/animate.css/">Animate</a></li>
+			<li><a href="http://getskeleton.com">Skeleton</a></li>
+			<li><a href="http://getskeleton.com">Skeleton</a></li>
+			</ul>
+			<h2 class="level-2">Images</h2>
+			<ul>
+			<li><a href="http://shutterstock.com">ShutterStock</a></li>
+			<li><a href="http://graphicriver.net">GraphicRiver</a></li>
+			</ul>			
+		</div>		
+		
+
+</section><!-- / credits & sources -->
+
+<!-- ===============================================================================
+######### FOOTER
+=================================================================================-->	
+<footer class="footer">
+	<p>&copy; eriktailor 2014</p>
+</footer>
+
+    </div> <!-- /container -->
+</div> <!-- /et-site-wrapper -->	
+	
+
+
+<!-- JavaScript
+================================================== -->
+<script type="text/javascript" src="assets/js/jquery.1.10.2.js"></script>
+<script type="text/javascript" src="assets/js/jquery.treeview.js" ></script>
+<script type="text/javascript" src="assets/js/waypoints.min.js"></script>	
+<script type="text/javascript" src="assets/js/script.js"></script>
+
+  </body>
+</html>
